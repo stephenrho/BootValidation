@@ -15,6 +15,6 @@ License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 Imports: glmnet, pbapply, pROC, parallel, survival, future.apply, MASS
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.2
 NeedsCompilation: no
 Packaged: 2018-07-23 09:24:19 UTC; 53257632M

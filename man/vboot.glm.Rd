@@ -13,7 +13,8 @@
   nfolds = NULL,
   B = 200,
   cv_replicates = NULL,
-  n_cores = max(1, parallel::detectCores() - 1)
+  n_cores = max(1, parallel::detectCores() - 1),
+  save_ps = F
 )
 }
 \arguments{

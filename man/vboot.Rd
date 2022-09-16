@@ -13,7 +13,9 @@ vboot(
   nfolds = 5,
   B = 200,
   cv_replicates = 100,
-  n_cores = max(1, parallel::detectCores() - 1)
+  n_cores = max(1, parallel::detectCores() - 1),
+  AIC_select = FALSE,
+  save_ps = FALSE
 )
 }
 \arguments{
